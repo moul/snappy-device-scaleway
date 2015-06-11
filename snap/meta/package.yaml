@@ -8,6 +8,12 @@ branding:
   name: Scaleway C1
   logo: meta/scaleway.png
 
+config:
+  ubuntu-core:
+    services:
+      - name: ssh
+        enabled: true
+
 oem:
   hardware:
     platform: armada-xp-scaleway-c1
