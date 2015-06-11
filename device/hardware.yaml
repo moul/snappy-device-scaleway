@@ -1,0 +1,3 @@
+kernel: assets/vmlinuz
+initrd: assets/initrd.img
+dtbs: assets/dtbs
