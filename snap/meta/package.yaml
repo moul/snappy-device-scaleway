@@ -6,13 +6,13 @@ type: oem
 
 branding:
   name: Scaleway C1
-  logo: meta/scaleway.png
+#  logo: meta/scaleway.png
 
-config:
-  ubuntu-core:
-    services:
-      - name: ssh
-        enabled: true
+#config:
+#  ubuntu-core:
+#    services:
+#      - name: ssh
+#        enabled: true
 
 oem:
   hardware:
