@@ -1,0 +1,16 @@
+name: scaleway-c1
+vendor: Manfred Touron <mtouron@scaleway.com>
+icon: meta/scaleway.png
+version: 0.1
+type: oem
+
+branding:
+  name: Scaleway C1
+  logo: meta/scaleway.png
+
+oem:
+  hardware:
+    platform: armada-xp-scaleway-c1
+    architecture: armhf
+    partition-layout: system-AB
+    bootloader: u-boot
